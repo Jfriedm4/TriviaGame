@@ -8,6 +8,7 @@ $(function(){
   // var nextBtn = '<button type="button" class="btn btn-dark nextBtn">Next</button>';
   // var questionNumber = 1;
 
+  var timer = setInterval(timer, 1000);
   var counter = 10;
 
   var score = {
@@ -30,8 +31,7 @@ $(function(){
 
   // function to make timer
   function timer(){
-    var timer = setInterval(timer, 1000);
-    $(".counter").html('<div>Timer: </div>' + counter);
+    $(".counter").html('<div>Timer: ' + counter + '</div>');
     counter--;
     if (counter < 0) {
       clearInterval(timer);
@@ -43,14 +43,11 @@ $(function(){
   // button click to open the first question
   $(".play").on("click", function() {
     $(".content").html(questions + '<div class="counter"></div>' + homeBtn);
-    timer();
   });
 
   $(document).on("click", ".answers", function(){
     $(this).css("color", "blue");
   });
-
-  $
 
   // function to go to next question
   // function nextQuestion(){

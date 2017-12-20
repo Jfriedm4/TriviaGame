@@ -1,0 +1,78 @@
+.headspace {
+  margin-bottom: 60px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.container{
+  margin-left: 0;
+}
+
+.copyright {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: center;
+}
+
+.content {
+  /* border: 1px solid red; */
+  position: relative"
+}
+
+.stuff {
+  width: 200px;
+  height: 150px;
+  /* border: 1px solid green; */
+  text-align: center;
+}
+
+.topRow {
+  margin-bottom: 50px;
+}
+
+.middleCol {
+  margin-left: 375px;
+}
+
+.bottomRow {
+  position: absolute;
+  bottom: 0;
+}
+
+.bottomLeft {
+  width: 400px;
+}
+
+.bottomRight {
+  right: 0;
+  width: 400px;
+  margin-left: 243px;
+}
+
+.about {
+  position: absolute;
+  left: 0;
+}
+
+.directions {
+  position:absolute;
+  right: 0;
+}
+
+.play {
+  position: absolute;
+  left: 95px;
+  top: 55px;
+}
+
+.someButton {
+  position:absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.someOtherButton{
+  position: absolute;
+  left: 0;
+  bottom:0;
+}
